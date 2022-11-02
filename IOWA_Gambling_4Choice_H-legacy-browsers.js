@@ -177,6 +177,7 @@ var text_7;
 var EndClock;
 var thank_you;
 var Bank_text_2;
+var key_resp;
 var globalClock;
 var routineTimer;
 async function experimentInit() {
@@ -369,7 +370,7 @@ async function experimentInit() {
     win: psychoJS.window,
     name: 'text',
     text: '1',
-    font: 'Open Sans',
+    font: 'Arial',
     units: undefined, 
     pos: [(- 0.36), 0.3], height: 0.05,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
@@ -381,7 +382,7 @@ async function experimentInit() {
     win: psychoJS.window,
     name: 'text_2',
     text: '2',
-    font: 'Open Sans',
+    font: 'Arial',
     units: undefined, 
     pos: [(- 0.12), 0.3], height: 0.05,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
@@ -393,7 +394,7 @@ async function experimentInit() {
     win: psychoJS.window,
     name: 'text_3',
     text: '3',
-    font: 'Open Sans',
+    font: 'Arial',
     units: undefined, 
     pos: [0.12, 0.3], height: 0.05,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
@@ -405,7 +406,7 @@ async function experimentInit() {
     win: psychoJS.window,
     name: 'text_4',
     text: '4',
-    font: 'Open Sans',
+    font: 'Arial',
     units: undefined, 
     pos: [0.36, 0.3], height: 0.05,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
@@ -417,7 +418,7 @@ async function experimentInit() {
     win: psychoJS.window,
     name: 'text_6',
     text: '',
-    font: 'Open Sans',
+    font: 'Arial',
     units: undefined, 
     pos: [0, 0], height: 0.05,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
@@ -556,7 +557,7 @@ async function experimentInit() {
   thank_you = new visual.TextStim({
     win: psychoJS.window,
     name: 'thank_you',
-    text: 'This is the end of the experiment.\nThank you for your time.',
+    text: 'This is the end of the experiment.\nThank you for your time.\n\nPress spacebar to close.',
     font: 'Arial',
     units: undefined, 
     pos: [0, (0 - 0.15)], height: 0.04,  wrapWidth: undefined, ori: 0,
@@ -576,6 +577,8 @@ async function experimentInit() {
     color: new util.Color('black'),  opacity: 1,
     depth: -1.0 
   });
+  
+  key_resp = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
   
   // Create some handy timers
   globalClock = new util.Clock();  // to track the time since experiment started
@@ -1958,6 +1961,7 @@ function FeedbackRoutineEnd(snapshot) {
 }
 
 
+var _key_resp_allKeys;
 var EndComponents;
 function EndRoutineBegin(snapshot) {
   return async function () {
@@ -1968,13 +1972,16 @@ function EndRoutineBegin(snapshot) {
     EndClock.reset(); // clock
     frameN = -1;
     continueRoutine = true; // until we're told otherwise
-    routineTimer.add(4.000000);
     // update component parameters for each repeat
     Bank_text_2.setText((("Your Final Total: " + "\u20ac") + Bank.toString()));
+    key_resp.keys = undefined;
+    key_resp.rt = undefined;
+    _key_resp_allKeys = [];
     // keep track of which components have finished
     EndComponents = [];
     EndComponents.push(thank_you);
     EndComponents.push(Bank_text_2);
+    EndComponents.push(key_resp);
     
     EndComponents.forEach( function(thisComponent) {
       if ('status' in thisComponent)
@@ -2002,10 +2009,6 @@ function EndRoutineEachFrame() {
       thank_you.setAutoDraw(true);
     }
 
-    frameRemains = 0.0 + 4 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
-    if (thank_you.status === PsychoJS.Status.STARTED && t >= frameRemains) {
-      thank_you.setAutoDraw(false);
-    }
     
     // *Bank_text_2* updates
     if (t >= 0.0 && Bank_text_2.status === PsychoJS.Status.NOT_STARTED) {
@@ -2016,10 +2019,29 @@ function EndRoutineEachFrame() {
       Bank_text_2.setAutoDraw(true);
     }
 
-    frameRemains = 0.0 + 4 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
-    if (Bank_text_2.status === PsychoJS.Status.STARTED && t >= frameRemains) {
-      Bank_text_2.setAutoDraw(false);
+    
+    // *key_resp* updates
+    if (t >= 0.0 && key_resp.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      key_resp.tStart = t;  // (not accounting for frame time here)
+      key_resp.frameNStart = frameN;  // exact frame index
+      
+      // keyboard checking is just starting
+      key_resp.clock.reset();
+      key_resp.start();
     }
+
+    if (key_resp.status === PsychoJS.Status.STARTED) {
+      let theseKeys = key_resp.getKeys({keyList: ['space'], waitRelease: false});
+      _key_resp_allKeys = _key_resp_allKeys.concat(theseKeys);
+      if (_key_resp_allKeys.length > 0) {
+        key_resp.keys = _key_resp_allKeys[_key_resp_allKeys.length - 1].name;  // just the last key pressed
+        key_resp.rt = _key_resp_allKeys[_key_resp_allKeys.length - 1].rt;
+        // a response ends the routine
+        continueRoutine = false;
+      }
+    }
+    
     // check for quit (typically the Esc key)
     if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
       return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
@@ -2038,7 +2060,7 @@ function EndRoutineEachFrame() {
     });
     
     // refresh the screen if continuing
-    if (continueRoutine && routineTimer.getTime() > 0) {
+    if (continueRoutine) {
       return Scheduler.Event.FLIP_REPEAT;
     } else {
       return Scheduler.Event.NEXT;
@@ -2055,6 +2077,10 @@ function EndRoutineEnd(snapshot) {
         thisComponent.setAutoDraw(false);
       }
     });
+    key_resp.stop();
+    // the Routine "End" was not non-slip safe, so reset the non-slip timer
+    routineTimer.reset();
+    
     // Routines running outside a loop should always advance the datafile row
     if (currentLoop === psychoJS.experiment) {
       psychoJS.experiment.nextEntry(snapshot);
