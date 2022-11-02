@@ -65,10 +65,10 @@ psychoJS.start({
   expName: expName,
   expInfo: expInfo,
   resources: [
-    {'name': 'GainLosConds.xlsx', 'path': 'GainLosConds.xlsx'},
     {'name': 'GainLosConds_testforshortexp.xlsx', 'path': 'GainLosConds_testforshortexp.xlsx'},
-    {'name': 'card_choice.png', 'path': 'card_choice.png'},
-    {'name': 'card_selected.png', 'path': 'card_selected.png'}
+    {'name': 'GainLosConds.xlsx', 'path': 'GainLosConds.xlsx'},
+    {'name': 'card_selected.png', 'path': 'card_selected.png'},
+    {'name': 'card_choice.png', 'path': 'card_choice.png'}
   ]
 });
 
@@ -1118,7 +1118,7 @@ function ChoiceBlockLoopBegin(ChoiceBlockLoopScheduler, snapshot) {
       psychoJS: psychoJS,
       nReps: 1, method: TrialHandler.Method.SEQUENTIAL,
       extraInfo: expInfo, originPath: undefined,
-      trialList: 'GainLosConds_testforshortexp.xlsx',
+      trialList: 'GainLosConds.xlsx',
       seed: undefined, name: 'ChoiceBlock'
     });
     psychoJS.experiment.addLoop(ChoiceBlock); // add the loop to the experiment
