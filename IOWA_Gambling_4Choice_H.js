@@ -1202,18 +1202,26 @@ function ChoiceRoutineBegin(snapshot) {
     CardChoice = 0;
     CurrentCard = "";
     Outcome = 0;
+    imgA = "card_choice.png";
+    imgB = "card_choice.png";
+    imgC = "card_choice.png";
+    imgD = "card_choice.png";
     
     ChoiceResp.keys = undefined;
     ChoiceResp.rt = undefined;
     _ChoiceResp_allKeys = [];
     A.setPos([(- 0.36), 0.1]);
     A.setSize(0.3);
+    A.setImage(imgA);
     B.setPos([(- 0.12), 0.1]);
     B.setSize(0.3);
+    B.setImage(imgB);
     C.setPos([0.12, 0.1]);
     C.setSize(0.3);
+    C.setImage(imgC);
     D.setPos([0.36, 0.1]);
     D.setSize(0.3);
+    D.setImage(imgD);
     // keep track of which components have finished
     ChoiceComponents = [];
     ChoiceComponents.push(ChoiceResp);
@@ -1282,10 +1290,6 @@ function ChoiceRoutineEachFrame() {
     }
 
     
-    if (A.status === PsychoJS.Status.STARTED){ // only update if being drawn
-      A.setImage(imgA, false);
-    }
-    
     // *B* updates
     if (t >= 0.0 && B.status === PsychoJS.Status.NOT_STARTED) {
       // keep track of start time/frame for later
@@ -1295,10 +1299,6 @@ function ChoiceRoutineEachFrame() {
       B.setAutoDraw(true);
     }
 
-    
-    if (B.status === PsychoJS.Status.STARTED){ // only update if being drawn
-      B.setImage(imgB, false);
-    }
     
     // *C* updates
     if (t >= 0.0 && C.status === PsychoJS.Status.NOT_STARTED) {
@@ -1310,10 +1310,6 @@ function ChoiceRoutineEachFrame() {
     }
 
     
-    if (C.status === PsychoJS.Status.STARTED){ // only update if being drawn
-      C.setImage(imgC, false);
-    }
-    
     // *D* updates
     if (t >= 0.0 && D.status === PsychoJS.Status.NOT_STARTED) {
       // keep track of start time/frame for later
@@ -1323,10 +1319,6 @@ function ChoiceRoutineEachFrame() {
       D.setAutoDraw(true);
     }
 
-    
-    if (D.status === PsychoJS.Status.STARTED){ // only update if being drawn
-      D.setImage(imgD, false);
-    }
     
     // *text* updates
     if (t >= 0.0 && text.status === PsychoJS.Status.NOT_STARTED) {
