@@ -140,6 +140,10 @@ var MsgColor;
 var PlusMinus;
 var Msg;
 var KnowInstrct2_Rep;
+var imgA;
+var imgB;
+var imgC;
+var imgD;
 var Instructions2Clock;
 var Instruct2_text;
 var Instruct2_Resp;
@@ -230,6 +234,10 @@ async function experimentInit() {
   PlusMinus = " ";
   Msg = " ";
   KnowInstrct2_Rep = 1;
+  imgA = "card_choice.png";
+  imgB = "card_choice.png";
+  imgC = "card_choice.png";
+  imgD = "card_choice.png";
   
   // Initialize components for Routine "Instructions2"
   Instructions2Clock = new util.Clock();
@@ -1173,13 +1181,9 @@ function ChoiceBlockLoopEndIteration(scheduler, snapshot) {
 }
 
 
-var _ChoiceResp_allKeys;
 var CurrentCard;
 var Outcome;
-var imgA;
-var imgB;
-var imgC;
-var imgD;
+var _ChoiceResp_allKeys;
 var ChoiceComponents;
 function ChoiceRoutineBegin(snapshot) {
   return async function () {
@@ -1191,9 +1195,6 @@ function ChoiceRoutineBegin(snapshot) {
     frameN = -1;
     continueRoutine = true; // until we're told otherwise
     // update component parameters for each repeat
-    ChoiceResp.keys = undefined;
-    ChoiceResp.rt = undefined;
-    _ChoiceResp_allKeys = [];
     // Run 'Begin Routine' code from ChoiceTime_code
     ChoiceStartTime = globalClock.getTime();
     ChoiceTimePassed = 0;
@@ -1201,11 +1202,10 @@ function ChoiceRoutineBegin(snapshot) {
     CardChoice = 0;
     CurrentCard = "";
     Outcome = 0;
-    imgA = "card_choice.png";
-    imgB = "card_choice.png";
-    imgC = "card_choice.png";
-    imgD = "card_choice.png";
     
+    ChoiceResp.keys = undefined;
+    ChoiceResp.rt = undefined;
+    _ChoiceResp_allKeys = [];
     A.setPos([(- 0.36), 0.1]);
     A.setSize(0.3);
     B.setPos([(- 0.12), 0.1]);
@@ -1243,6 +1243,10 @@ function ChoiceRoutineEachFrame() {
     t = ChoiceClock.getTime();
     frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
     // update/draw components on each frame
+    // Run 'Each Frame' code from ChoiceTime_code
+    ChoiceTimePassed = (globalClock.getTime() - ChoiceStartTime);
+    choiceStr = "XXXXXX";
+    
     
     // *ChoiceResp* updates
     if (t >= 0.0 && ChoiceResp.status === PsychoJS.Status.NOT_STARTED) {
@@ -1266,10 +1270,6 @@ function ChoiceRoutineEachFrame() {
         continueRoutine = false;
       }
     }
-    
-    // Run 'Each Frame' code from ChoiceTime_code
-    ChoiceTimePassed = (globalClock.getTime() - ChoiceStartTime);
-    choiceStr = "XXXXXX";
     
     
     // *A* updates
@@ -1417,17 +1417,6 @@ function ChoiceRoutineEnd(snapshot) {
         thisComponent.setAutoDraw(false);
       }
     }
-    // update the trial handler
-    if (currentLoop instanceof MultiStairHandler) {
-      currentLoop.addResponse(ChoiceResp.corr, level);
-    }
-    psychoJS.experiment.addData('ChoiceResp.keys', ChoiceResp.keys);
-    if (typeof ChoiceResp.keys !== 'undefined') {  // we had a response
-        psychoJS.experiment.addData('ChoiceResp.rt', ChoiceResp.rt);
-        routineTimer.reset();
-        }
-    
-    ChoiceResp.stop();
     // Run 'End Routine' code from ChoiceTime_code
     if ((ChoiceResp.keys === "1")) {
         CurrentCard = "A_Card";
@@ -1445,6 +1434,17 @@ function ChoiceRoutineEnd(snapshot) {
         }
     }
     
+    // update the trial handler
+    if (currentLoop instanceof MultiStairHandler) {
+      currentLoop.addResponse(ChoiceResp.corr, level);
+    }
+    psychoJS.experiment.addData('ChoiceResp.keys', ChoiceResp.keys);
+    if (typeof ChoiceResp.keys !== 'undefined') {  // we had a response
+        psychoJS.experiment.addData('ChoiceResp.rt', ChoiceResp.rt);
+        routineTimer.reset();
+        }
+    
+    ChoiceResp.stop();
     // the Routine "Choice" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset();
     
@@ -1479,7 +1479,6 @@ function ProcessChoiceRoutineBegin(snapshot) {
         console.log(Outcome);
     } else {
         if ((ChoiceResp.keys === "2")) {
-            Card = "B";
             B_Counter = (B_Counter + 1);
             B_moneyCounter = (B_Counter - 1);
             GoodDeck = 0;
@@ -1487,7 +1486,6 @@ function ProcessChoiceRoutineBegin(snapshot) {
             Outcome = B_Outcome;
         } else {
             if ((ChoiceResp.keys === "3")) {
-                Card = "C";
                 C_Counter = (C_Counter + 1);
                 C_moneyCounter = (C_Counter - 1);
                 GoodDeck = 1;
@@ -1495,7 +1493,6 @@ function ProcessChoiceRoutineBegin(snapshot) {
                 Outcome = C_Outcome;
             } else {
                 if ((ChoiceResp.keys === "4")) {
-                    Card = "D";
                     D_Counter = (D_Counter + 1);
                     D_moneyCounter = (D_Counter - 1);
                     GoodDeck = 1;
