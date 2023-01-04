@@ -1,0 +1,12 @@
+﻿Instruct1_Resp.keys,Instruct1_Resp.rt,participant,age,sex,date,expName,psychopyVersion,OS,frameRate,ChoiceResp.keys,ChoiceResp.rt,Chosen_Card,GoodDeck?,GainsLosses,TotalinBank,ChoiceBlock.thisRepN,ChoiceBlock.thisTrialN,ChoiceBlock.thisN,ChoiceBlock.thisIndex,ChoiceBlock.ran,A_Outcome,B_Outcome,C_Outcome,D_Outcome
+space,5.1898,1,19,female,2023-01-03_20h28.03.133,IOWA_Gambling_4Choice_H,2022.2.4,MacIntel,120.0048002,,,,,,,,,,,,,,,
+,,1,19,female,2023-01-03_20h28.03.133,IOWA_Gambling_4Choice_H,2022.2.4,MacIntel,120.0048002,,,,,,,,,,,,,,,
+,,1,19,female,2023-01-03_20h28.03.133,IOWA_Gambling_4Choice_H,2022.2.4,MacIntel,120.0048002,,,,,,,,,,,,,,,
+,,1,19,female,2023-01-03_20h28.03.133,IOWA_Gambling_4Choice_H,2022.2.4,MacIntel,120.0048002,,,,,,,,,,,,,,,
+,,1,19,female,2023-01-03_20h28.03.133,IOWA_Gambling_4Choice_H,2022.2.4,MacIntel,120.0048002,1,2.5457,A_Card,0,100,2100,0,0,0,0,1,100,100,50,50
+,,1,19,female,2023-01-03_20h28.03.133,IOWA_Gambling_4Choice_H,2022.2.4,MacIntel,120.0048002,2,0.7689,B_Card,0,100,2200,0,1,1,1,1,100,100,50,50
+,,1,19,female,2023-01-03_20h28.03.133,IOWA_Gambling_4Choice_H,2022.2.4,MacIntel,120.0048002,3,0.3428,C_Card,1,-50,2150,0,2,2,2,1,-150,100,-50,50
+,,1,19,female,2023-01-03_20h28.03.133,IOWA_Gambling_4Choice_H,2022.2.4,MacIntel,120.0048002,4,0.6298,D_Card,1,50,2200,0,3,3,3,1,100,100,50,50
+,,1,19,female,2023-01-03_20h28.03.133,IOWA_Gambling_4Choice_H,2022.2.4,MacIntel,120.0048002,1,0.5655,A_Card,0,-300,1900,0,4,4,4,1,-300,100,-50,50
+,,1,19,female,2023-01-03_20h28.03.133,IOWA_Gambling_4Choice_H,2022.2.4,MacIntel,120.0048002,2,0.8139,B_Card,0,100,2000,0,5,5,5,1,100,100,50,50
+,,1,19,female,2023-01-03_20h28.03.133,IOWA_Gambling_4Choice_H,2022.2.4,MacIntel,120.0048002,3,0.6959,C_Card,1,-50,1950,0,6,6,6,1,-200,100,-50,50
