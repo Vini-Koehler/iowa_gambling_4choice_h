@@ -1,0 +1,15 @@
+﻿Instruct1_Resp.keys,Instruct1_Resp.rt,participant,age,sex,date,expName,psychopyVersion,OS,frameRate,ChoiceResp.keys,ChoiceResp.rt,Chosen_Card,GoodDeck?,GainsLosses,TotalinBank,ChoiceBlock.thisRepN,ChoiceBlock.thisTrialN,ChoiceBlock.thisN,ChoiceBlock.thisIndex,ChoiceBlock.ran,A_Outcome,B_Outcome,C_Outcome,D_Outcome
+space,11.6194,000,111,1,2023-02-15_11h50.57.205,IOWA_Gambling_4Choice_H,2022.2.4,Win32,60.32454606,,,,,,,,,,,,,,,
+,,000,111,1,2023-02-15_11h50.57.205,IOWA_Gambling_4Choice_H,2022.2.4,Win32,60.32454606,,,,,,,,,,,,,,,
+,,000,111,1,2023-02-15_11h50.57.205,IOWA_Gambling_4Choice_H,2022.2.4,Win32,60.32454606,,,,,,,,,,,,,,,
+,,000,111,1,2023-02-15_11h50.57.205,IOWA_Gambling_4Choice_H,2022.2.4,Win32,60.32454606,,,,,,,,,,,,,,,
+,,000,111,1,2023-02-15_11h50.57.205,IOWA_Gambling_4Choice_H,2022.2.4,Win32,60.32454606,1,1.5114,A_Card,0,100,2100,0,0,0,0,1,100,100,50,50
+,,000,111,1,2023-02-15_11h50.57.205,IOWA_Gambling_4Choice_H,2022.2.4,Win32,60.32454606,2,0.9856,B_Card,0,100,2200,0,1,1,1,1,100,100,50,50
+,,000,111,1,2023-02-15_11h50.57.205,IOWA_Gambling_4Choice_H,2022.2.4,Win32,60.32454606,3,1.5503,C_Card,1,-50,2150,0,2,2,2,1,-150,100,-50,50
+,,000,111,1,2023-02-15_11h50.57.205,IOWA_Gambling_4Choice_H,2022.2.4,Win32,60.32454606,4,0.5306,D_Card,1,50,2200,0,3,3,3,1,100,100,50,50
+,,000,111,1,2023-02-15_11h50.57.205,IOWA_Gambling_4Choice_H,2022.2.4,Win32,60.32454606,2,0.4317,B_Card,0,100,2300,0,4,4,4,1,-300,100,-50,50
+,,000,111,1,2023-02-15_11h50.57.205,IOWA_Gambling_4Choice_H,2022.2.4,Win32,60.32454606,1,0.3157,A_Card,0,100,2400,0,5,5,5,1,100,100,50,50
+,,000,111,1,2023-02-15_11h50.57.205,IOWA_Gambling_4Choice_H,2022.2.4,Win32,60.32454606,4,1.6045,D_Card,1,50,2450,0,6,6,6,1,-200,100,-50,50
+,,000,111,1,2023-02-15_11h50.57.205,IOWA_Gambling_4Choice_H,2022.2.4,Win32,60.32454606,4,0.3662,D_Card,1,50,2500,0,7,7,7,1,100,100,50,50
+,,000,111,1,2023-02-15_11h50.57.205,IOWA_Gambling_4Choice_H,2022.2.4,Win32,60.32454606,2,0.3477,B_Card,0,-1250,1250,0,8,8,8,1,-250,-1250,-50,50
+,,000,111,1,2023-02-15_11h50.57.205,IOWA_Gambling_4Choice_H,2022.2.4,Win32,60.32454606,1,0.1663,A_Card,0,-350,900,0,9,9,9,1,-350,100,-50,-250
