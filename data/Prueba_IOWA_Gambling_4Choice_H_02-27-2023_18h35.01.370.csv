@@ -1,0 +1,8 @@
+﻿Instruct1_Resp.keys,Instruct1_Resp.rt,participant,age,sex,date,expName,psychopyVersion,OS,frameRate,ChoiceResp.keys,ChoiceResp.rt,Chosen_Card,GoodDeck?,GainsLosses,TotalinBank,ChoiceBlock.thisRepN,ChoiceBlock.thisTrialN,ChoiceBlock.thisN,ChoiceBlock.thisIndex,ChoiceBlock.ran,A_Outcome,B_Outcome,C_Outcome,D_Outcome
+space,7.403,Prueba,3,F,02-27-2023_18h35.01.370,IOWA_Gambling_4Choice_H,2022.2.4,Win32,30.3030303,,,,,,,,,,,,,,,
+,,Prueba,3,F,02-27-2023_18h35.01.370,IOWA_Gambling_4Choice_H,2022.2.4,Win32,30.3030303,,,,,,,,,,,,,,,
+,,Prueba,3,F,02-27-2023_18h35.01.370,IOWA_Gambling_4Choice_H,2022.2.4,Win32,30.3030303,,,,,,,,,,,,,,,
+,,Prueba,3,F,02-27-2023_18h35.01.370,IOWA_Gambling_4Choice_H,2022.2.4,Win32,30.3030303,,,,,,,,,,,,,,,
+,,Prueba,3,F,02-27-2023_18h35.01.370,IOWA_Gambling_4Choice_H,2022.2.4,Win32,30.3030303,1,1.119,A_Card,0,100,2100,0,0,0,0,1,100,100,50,50
+,,Prueba,3,F,02-27-2023_18h35.01.370,IOWA_Gambling_4Choice_H,2022.2.4,Win32,30.3030303,3,1.649,C_Card,1,50,2150,0,1,1,1,1,100,100,50,50
+,,Prueba,3,F,02-27-2023_18h35.01.370,IOWA_Gambling_4Choice_H,2022.2.4,Win32,30.3030303,2,1.245,B_Card,0,100,2250,0,2,2,2,1,-150,100,-50,50
