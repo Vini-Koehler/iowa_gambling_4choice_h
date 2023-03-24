@@ -1,0 +1,9 @@
+﻿Instruct1_Resp.keys,Instruct1_Resp.rt,participant,age,sex,date,expName,psychopyVersion,OS,frameRate,ChoiceResp.keys,ChoiceResp.rt,Chosen_Card,GoodDeck?,GainsLosses,TotalinBank,ChoiceBlock.thisRepN,ChoiceBlock.thisTrialN,ChoiceBlock.thisN,ChoiceBlock.thisIndex,ChoiceBlock.ran,A_Outcome,B_Outcome,C_Outcome,D_Outcome
+space,0.968,trial,23,M,03-24-2023_16h55.29.752,IOWA_Gambling_4Choice_H,2022.2.4,Linux x86_64,141.6430595,,,,,,,,,,,,,,,
+,,trial,23,M,03-24-2023_16h55.29.752,IOWA_Gambling_4Choice_H,2022.2.4,Linux x86_64,141.6430595,,,,,,,,,,,,,,,
+,,trial,23,M,03-24-2023_16h55.29.752,IOWA_Gambling_4Choice_H,2022.2.4,Linux x86_64,141.6430595,,,,,,,,,,,,,,,
+,,trial,23,M,03-24-2023_16h55.29.752,IOWA_Gambling_4Choice_H,2022.2.4,Linux x86_64,141.6430595,,,,,,,,,,,,,,,
+,,trial,23,M,03-24-2023_16h55.29.752,IOWA_Gambling_4Choice_H,2022.2.4,Linux x86_64,141.6430595,2,4.161,B_Card,0,100,2100,0,0,0,0,1,100,100,50,50
+,,trial,23,M,03-24-2023_16h55.29.752,IOWA_Gambling_4Choice_H,2022.2.4,Linux x86_64,141.6430595,3,0.787,C_Card,1,50,2150,0,1,1,1,1,100,100,50,50
+,,trial,23,M,03-24-2023_16h55.29.752,IOWA_Gambling_4Choice_H,2022.2.4,Linux x86_64,141.6430595,3,0.029,C_Card,1,-50,2100,0,2,2,2,1,-150,100,-50,50
+,,trial,23,M,03-24-2023_16h55.29.752,IOWA_Gambling_4Choice_H,2022.2.4,Linux x86_64,141.6430595,3,0.309,C_Card,1,50,2150,0,3,3,3,1,100,100,50,50
