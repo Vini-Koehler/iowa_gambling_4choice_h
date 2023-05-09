@@ -1,0 +1,15 @@
+﻿Instruct1_Resp.keys,Instruct1_Resp.rt,participant,age,sex,date,expName,psychopyVersion,OS,frameRate,ChoiceResp.keys,ChoiceResp.rt,Chosen_Card,GoodDeck?,GainsLosses,TotalinBank,ChoiceBlock.thisRepN,ChoiceBlock.thisTrialN,ChoiceBlock.thisN,ChoiceBlock.thisIndex,ChoiceBlock.ran,A_Outcome,B_Outcome,C_Outcome,D_Outcome
+space,20.7471,,,,2023-05-09_14h12.06.362,IOWA_Gambling_4Choice_H,2022.2.4,Win32,59.97361161,,,,,,,,,,,,,,,
+,,,,,2023-05-09_14h12.06.362,IOWA_Gambling_4Choice_H,2022.2.4,Win32,59.97361161,,,,,,,,,,,,,,,
+,,,,,2023-05-09_14h12.06.362,IOWA_Gambling_4Choice_H,2022.2.4,Win32,59.97361161,,,,,,,,,,,,,,,
+,,,,,2023-05-09_14h12.06.362,IOWA_Gambling_4Choice_H,2022.2.4,Win32,59.97361161,,,,,,,,,,,,,,,
+,,,,,2023-05-09_14h12.06.362,IOWA_Gambling_4Choice_H,2022.2.4,Win32,59.97361161,2,7.0454,B_Card,0,100,2100,0,0,0,0,1,100,100,50,50
+,,,,,2023-05-09_14h12.06.362,IOWA_Gambling_4Choice_H,2022.2.4,Win32,59.97361161,3,1.4608,C_Card,1,50,2150,0,1,1,1,1,100,100,50,50
+,,,,,2023-05-09_14h12.06.362,IOWA_Gambling_4Choice_H,2022.2.4,Win32,59.97361161,4,2.363,D_Card,1,50,2200,0,2,2,2,1,-150,100,-50,50
+,,,,,2023-05-09_14h12.06.362,IOWA_Gambling_4Choice_H,2022.2.4,Win32,59.97361161,1,1.2184,A_Card,0,100,2300,0,3,3,3,1,100,100,50,50
+,,,,,2023-05-09_14h12.06.362,IOWA_Gambling_4Choice_H,2022.2.4,Win32,59.97361161,2,0.5689,B_Card,0,100,2400,0,4,4,4,1,-300,100,-50,50
+,,,,,2023-05-09_14h12.06.362,IOWA_Gambling_4Choice_H,2022.2.4,Win32,59.97361161,3,0.5074,C_Card,1,50,2450,0,5,5,5,1,100,100,50,50
+,,,,,2023-05-09_14h12.06.362,IOWA_Gambling_4Choice_H,2022.2.4,Win32,59.97361161,2,0.3898,B_Card,0,100,2550,0,6,6,6,1,-200,100,-50,50
+,,,,,2023-05-09_14h12.06.362,IOWA_Gambling_4Choice_H,2022.2.4,Win32,59.97361161,4,1.478,D_Card,1,50,2600,0,7,7,7,1,100,100,50,50
+,,,,,2023-05-09_14h12.06.362,IOWA_Gambling_4Choice_H,2022.2.4,Win32,59.97361161,3,0.3148,C_Card,1,-50,2550,0,8,8,8,1,-250,-1250,-50,50
+,,,,,2023-05-09_14h12.06.362,IOWA_Gambling_4Choice_H,2022.2.4,Win32,59.97361161,3,0.4985,C_Card,1,-50,2500,0,9,9,9,1,-350,100,-50,-250
