@@ -1,0 +1,15 @@
+﻿Instruct1_Resp.keys,Instruct1_Resp.rt,participant,age,sex,date,expName,psychopyVersion,OS,frameRate,ChoiceResp.keys,ChoiceResp.rt,Chosen_Card,GoodDeck?,GainsLosses,TotalinBank,ChoiceBlock.thisRepN,ChoiceBlock.thisTrialN,ChoiceBlock.thisN,ChoiceBlock.thisIndex,ChoiceBlock.ran,A_Outcome,B_Outcome,C_Outcome,D_Outcome
+space,8.686,V,22,man,05-11-2023_18h31.36.942,IOWA_Gambling_4Choice_H,2022.2.4,Win32,29.61208173,,,,,,,,,,,,,,,
+,,V,22,man,05-11-2023_18h31.36.942,IOWA_Gambling_4Choice_H,2022.2.4,Win32,29.61208173,,,,,,,,,,,,,,,
+,,V,22,man,05-11-2023_18h31.36.942,IOWA_Gambling_4Choice_H,2022.2.4,Win32,29.61208173,,,,,,,,,,,,,,,
+,,V,22,man,05-11-2023_18h31.36.942,IOWA_Gambling_4Choice_H,2022.2.4,Win32,29.61208173,,,,,,,,,,,,,,,
+,,V,22,man,05-11-2023_18h31.36.942,IOWA_Gambling_4Choice_H,2022.2.4,Win32,29.61208173,3,3.4402,C_Card,1,50,2050,0,0,0,0,1,100,100,50,50
+,,V,22,man,05-11-2023_18h31.36.942,IOWA_Gambling_4Choice_H,2022.2.4,Win32,29.61208173,2,1.5207,B_Card,0,100,2150,0,1,1,1,1,100,100,50,50
+,,V,22,man,05-11-2023_18h31.36.942,IOWA_Gambling_4Choice_H,2022.2.4,Win32,29.61208173,2,0.9727,B_Card,0,100,2250,0,2,2,2,1,-150,100,-50,50
+,,V,22,man,05-11-2023_18h31.36.942,IOWA_Gambling_4Choice_H,2022.2.4,Win32,29.61208173,4,0.5666,D_Card,1,50,2300,0,3,3,3,1,100,100,50,50
+,,V,22,man,05-11-2023_18h31.36.942,IOWA_Gambling_4Choice_H,2022.2.4,Win32,29.61208173,1,0.3589,A_Card,0,-300,2000,0,4,4,4,1,-300,100,-50,50
+,,V,22,man,05-11-2023_18h31.36.942,IOWA_Gambling_4Choice_H,2022.2.4,Win32,29.61208173,3,0.3528,C_Card,1,50,2050,0,5,5,5,1,100,100,50,50
+,,V,22,man,05-11-2023_18h31.36.942,IOWA_Gambling_4Choice_H,2022.2.4,Win32,29.61208173,3,0.3727,C_Card,1,-50,2000,0,6,6,6,1,-200,100,-50,50
+,,V,22,man,05-11-2023_18h31.36.942,IOWA_Gambling_4Choice_H,2022.2.4,Win32,29.61208173,2,0.3989,B_Card,0,100,2100,0,7,7,7,1,100,100,50,50
+,,V,22,man,05-11-2023_18h31.36.942,IOWA_Gambling_4Choice_H,2022.2.4,Win32,29.61208173,2,0.3148,B_Card,0,-1250,850,0,8,8,8,1,-250,-1250,-50,50
+,,V,22,man,05-11-2023_18h31.36.942,IOWA_Gambling_4Choice_H,2022.2.4,Win32,29.61208173,4,0.3356,D_Card,1,-250,600,0,9,9,9,1,-350,100,-50,-250
