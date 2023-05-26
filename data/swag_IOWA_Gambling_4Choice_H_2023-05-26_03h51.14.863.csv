@@ -1,0 +1,17 @@
+﻿Instruct1_Resp.keys,Instruct1_Resp.rt,participant,age,sex,date,expName,psychopyVersion,OS,frameRate,ChoiceResp.keys,ChoiceResp.rt,Chosen_Card,GoodDeck?,GainsLosses,TotalinBank,ChoiceBlock.thisRepN,ChoiceBlock.thisTrialN,ChoiceBlock.thisN,ChoiceBlock.thisIndex,ChoiceBlock.ran,A_Outcome,B_Outcome,C_Outcome,D_Outcome
+space,10.5913,swag,21,female,2023-05-26_03h51.14.863,IOWA_Gambling_4Choice_H,2022.2.4,Win32,60.0528465,,,,,,,,,,,,,,,
+,,swag,21,female,2023-05-26_03h51.14.863,IOWA_Gambling_4Choice_H,2022.2.4,Win32,60.0528465,,,,,,,,,,,,,,,
+,,swag,21,female,2023-05-26_03h51.14.863,IOWA_Gambling_4Choice_H,2022.2.4,Win32,60.0528465,,,,,,,,,,,,,,,
+,,swag,21,female,2023-05-26_03h51.14.863,IOWA_Gambling_4Choice_H,2022.2.4,Win32,60.0528465,,,,,,,,,,,,,,,
+,,swag,21,female,2023-05-26_03h51.14.863,IOWA_Gambling_4Choice_H,2022.2.4,Win32,60.0528465,1,0.6807,A_Card,0,100,2100,0,0,0,0,1,100,100,50,50
+,,swag,21,female,2023-05-26_03h51.14.863,IOWA_Gambling_4Choice_H,2022.2.4,Win32,60.0528465,2,0.189,B_Card,0,100,2200,0,1,1,1,1,100,100,50,50
+,,swag,21,female,2023-05-26_03h51.14.863,IOWA_Gambling_4Choice_H,2022.2.4,Win32,60.0528465,3,0.0781,C_Card,1,-50,2150,0,2,2,2,1,-150,100,-50,50
+,,swag,21,female,2023-05-26_03h51.14.863,IOWA_Gambling_4Choice_H,2022.2.4,Win32,60.0528465,4,0.167,D_Card,1,50,2200,0,3,3,3,1,100,100,50,50
+,,swag,21,female,2023-05-26_03h51.14.863,IOWA_Gambling_4Choice_H,2022.2.4,Win32,60.0528465,3,0.3557,C_Card,1,-50,2150,0,4,4,4,1,-300,100,-50,50
+,,swag,21,female,2023-05-26_03h51.14.863,IOWA_Gambling_4Choice_H,2022.2.4,Win32,60.0528465,3,0.3224,C_Card,1,50,2200,0,5,5,5,1,100,100,50,50
+,,swag,21,female,2023-05-26_03h51.14.863,IOWA_Gambling_4Choice_H,2022.2.4,Win32,60.0528465,2,0.2721,B_Card,0,100,2300,0,6,6,6,1,-200,100,-50,50
+,,swag,21,female,2023-05-26_03h51.14.863,IOWA_Gambling_4Choice_H,2022.2.4,Win32,60.0528465,2,0.1355,B_Card,0,100,2400,0,7,7,7,1,100,100,50,50
+,,swag,21,female,2023-05-26_03h51.14.863,IOWA_Gambling_4Choice_H,2022.2.4,Win32,60.0528465,2,0.0345,B_Card,0,-1250,1150,0,8,8,8,1,-250,-1250,-50,50
+,,swag,21,female,2023-05-26_03h51.14.863,IOWA_Gambling_4Choice_H,2022.2.4,Win32,60.0528465,1,0.1348,A_Card,0,-350,800,0,9,9,9,1,-350,100,-50,-250
+,,swag,21,female,2023-05-26_03h51.14.863,IOWA_Gambling_4Choice_H,2022.2.4,Win32,60.0528465,2,0.3427,B_Card,0,100,900,0,10,10,10,1,100,100,50,50
+,,swag,21,female,2023-05-26_03h51.14.863,IOWA_Gambling_4Choice_H,2022.2.4,Win32,60.0528465,2,0.2166,B_Card,0,100,1000,0,11,11,11,1,-350,100,-25,50
