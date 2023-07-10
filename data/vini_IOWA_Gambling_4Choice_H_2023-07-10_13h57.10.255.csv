@@ -1,0 +1,17 @@
+﻿Instruct1_Resp.keys,Instruct1_Resp.rt,participant,age,sex,date,expName,psychopyVersion,OS,frameRate,ChoiceResp.keys,ChoiceResp.rt,Chosen_Card,GoodDeck?,GainsLosses,TotalinBank,ChoiceBlock.thisRepN,ChoiceBlock.thisTrialN,ChoiceBlock.thisN,ChoiceBlock.thisIndex,ChoiceBlock.ran,A_Outcome,B_Outcome,C_Outcome,D_Outcome
+space,7.0791,vini,35,m,2023-07-10_13h57.10.255,IOWA_Gambling_4Choice_H,2022.2.4,Win32,59.65875194,,,,,,,,,,,,,,,
+,,vini,35,m,2023-07-10_13h57.10.255,IOWA_Gambling_4Choice_H,2022.2.4,Win32,59.65875194,,,,,,,,,,,,,,,
+,,vini,35,m,2023-07-10_13h57.10.255,IOWA_Gambling_4Choice_H,2022.2.4,Win32,59.65875194,,,,,,,,,,,,,,,
+,,vini,35,m,2023-07-10_13h57.10.255,IOWA_Gambling_4Choice_H,2022.2.4,Win32,59.65875194,,,,,,,,,,,,,,,
+,,vini,35,m,2023-07-10_13h57.10.255,IOWA_Gambling_4Choice_H,2022.2.4,Win32,59.65875194,1,2.15,A_Card,0,100,2100,0,0,0,0,1,100,100,50,50
+,,vini,35,m,2023-07-10_13h57.10.255,IOWA_Gambling_4Choice_H,2022.2.4,Win32,59.65875194,1,1.3873,A_Card,0,100,2200,0,1,1,1,1,100,100,50,50
+,,vini,35,m,2023-07-10_13h57.10.255,IOWA_Gambling_4Choice_H,2022.2.4,Win32,59.65875194,2,0.8664,B_Card,0,100,2300,0,2,2,2,1,-150,100,-50,50
+,,vini,35,m,2023-07-10_13h57.10.255,IOWA_Gambling_4Choice_H,2022.2.4,Win32,59.65875194,3,1.1343,C_Card,1,50,2350,0,3,3,3,1,100,100,50,50
+,,vini,35,m,2023-07-10_13h57.10.255,IOWA_Gambling_4Choice_H,2022.2.4,Win32,59.65875194,4,1.6141,D_Card,1,50,2400,0,4,4,4,1,-300,100,-50,50
+,,vini,35,m,2023-07-10_13h57.10.255,IOWA_Gambling_4Choice_H,2022.2.4,Win32,59.65875194,3,1.1599,C_Card,1,50,2450,0,5,5,5,1,100,100,50,50
+,,vini,35,m,2023-07-10_13h57.10.255,IOWA_Gambling_4Choice_H,2022.2.4,Win32,59.65875194,2,0.5898,B_Card,0,100,2550,0,6,6,6,1,-200,100,-50,50
+,,vini,35,m,2023-07-10_13h57.10.255,IOWA_Gambling_4Choice_H,2022.2.4,Win32,59.65875194,2,0.758,B_Card,0,100,2650,0,7,7,7,1,100,100,50,50
+,,vini,35,m,2023-07-10_13h57.10.255,IOWA_Gambling_4Choice_H,2022.2.4,Win32,59.65875194,2,0.503,B_Card,0,-1250,1400,0,8,8,8,1,-250,-1250,-50,50
+,,vini,35,m,2023-07-10_13h57.10.255,IOWA_Gambling_4Choice_H,2022.2.4,Win32,59.65875194,3,1.1491,C_Card,1,-50,1350,0,9,9,9,1,-350,100,-50,-250
+,,vini,35,m,2023-07-10_13h57.10.255,IOWA_Gambling_4Choice_H,2022.2.4,Win32,59.65875194,3,0.5951,C_Card,1,50,1400,0,10,10,10,1,100,100,50,50
+,,vini,35,m,2023-07-10_13h57.10.255,IOWA_Gambling_4Choice_H,2022.2.4,Win32,59.65875194,4,0.517,D_Card,1,50,1450,0,11,11,11,1,-350,100,-25,50
