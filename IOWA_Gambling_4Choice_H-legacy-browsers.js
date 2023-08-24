@@ -189,7 +189,7 @@ async function experimentInit() {
   Instruct1_text = new visual.TextStim({
     win: psychoJS.window,
     name: 'Instruct1_text',
-    text: 'In this game, you will see a series of cards. You must choose a card to PLAY\n\nSometimes you will win money, sometimes you will lose money.  \n\nYour job is to try to win as much money as possible.\n\nPress the spacebar to continue. ',
+    text: 'Olá Ricardo. Acho que era para aparecer essa mensagem. In this game, you will see a series of cards. You must choose a card to PLAY\n\nSometimes you will win money, sometimes you will lose money.  \n\nYour job is to try to win as much money as possible.\n\nPress the spacebar to continue. ',
     font: 'Arial',
     units: undefined, 
     pos: [0, 0], height: 0.04,  wrapWidth: undefined, ori: 0,
